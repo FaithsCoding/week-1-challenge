@@ -1,3 +1,4 @@
+/* This styling is universal to this CSS document, meaning it will be defaultly applied to any elements that do not have styling rules applied. */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -6,12 +7,14 @@
 
 }
 
+/* This styling applies a background color, a text colour and a font size to every element within the body unless otherwise specified. */
 body {
     background-color: #d9dcd6;
     color: #ffffff;
     font-size: 16px;
 }
 
+/* This styling applies a font family, padding, background color and text color to every element within the header unless otherwise specificed. */
 header {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 20px;
@@ -19,6 +22,7 @@ header {
     color: #ffffff;
 }
 
+/* header h1 and header h1 .seo are different and ask the header to display in a block format with a font size of 48px. In our index, we put a span tag around SEO to change the colour of these letters . */
 header h1 {
     display: inline-block;
     font-size: 48px;
@@ -28,6 +32,7 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
+/* This styling is applying padding, a margin to the right. It is set to float right with a font family and font size. */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -42,6 +47,7 @@ header nav ul li {
 
 }
 
+/* Below are pseudo classes which allow an element to alter when a user interacts. For example, the color will change when the link is new to the user, when it has been visted (clicked), hovered over or is active. */
 a:link {
   color: #fff;
   background-color: transparent;
@@ -66,6 +72,7 @@ a:active {
   text-decoration: underline;
 }
 
+/* A hero is an image which is set to cover a large proportion of the page, in this case 800px height x 100% width of the page. This is also known as a cover image. */
 .hero {
     height: 800px;
     width: 100%;
@@ -80,6 +87,8 @@ a:active {
     display: inline-block;
     margin-left: 20px;
 }
+
+/* I changed my services and benefits into classes so we could apply the same css to an entire section rather than individual elements. */
 
 .services {
     display: inline-block;
@@ -99,6 +108,8 @@ a:active {
     font-size: 36px;
 }
 
+/* Below are ID's which are used when you want to change a small number of elements, normally 1 or 2. These are being applied to the images to ask them to differentiate from previous CSS styling rules. */
+
 #float-left {
     float: left;
     margin-right: 25px;
@@ -109,6 +120,7 @@ a:active {
     margin-left: 25px;
 }
 
+/* I changed my services and benefits into classes so we could apply the same css to a section rather than individual elements. */
 .benefits {
     margin-right: 20px;
     padding: 20px;
