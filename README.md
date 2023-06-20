@@ -1,48 +1,44 @@
-# Week 1 - Challenge
-As our end of week 1 challenge, we were asked to refactor existing code to meet the following user story. 
+# HTML re-factoring
 
-## User Story
+## Description
 
-```
-AS A marketing agency
-I WANT a codebase that follows accessibility standards
-SO THAT our own site is optimized for search engines
-```
+This challenge is for our week 1 project. This has set us the challenge of refactoring HTML and CSS to make sure it is semantic.
 
-## Acceptance Criteria
+## Table of Contents
 
-```
-GIVEN a webpage meets accessibility standards
-WHEN I view the source code
-THEN I find semantic HTML elements
-WHEN I view the structure of the HTML elements
-THEN I find that the elements follow a logical structure independent of styling and positioning
-WHEN I view the icon and image elements
-THEN I find accessible alt attributes
-WHEN I view the heading attributes
-THEN they fall in sequential order
-WHEN I view the title element
-THEN I find a concise, descriptive title
-```
+- [Title](#title)
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Tests](#tests)
+- [Demo](#demo)
+- [Contributing](#contributing)
+- [Questions](#questions)
 
-## Actual Behaviour
+## Installation
 
-```
-The word 'SEO' is a different color in the header Horiseon.
-The nav bar becomes black when it is hovered over and turns the same color as SEO when it has been clicked. 
-The CSS is keeping all the semantic elements in position, both aside and setting images to float left/right. 
-Classes and ID's have been applied to sections and specific elements. 
-The footer has had the text updated to reflect the current year of 2023.
-Alt attributes have been added and are accessible. 
-The HTML and CSS follow a sequential order. 
-The title has been changed to meet requirements. 
-GIVEN a webpage meets accessibility standards
+This application uses HTML and CSS.
 
-```
-> **Important** This is an not an exhuastive list of the work carried out. 
+## Usage
 
+You use this application by opening the html within your browser.
 
+## Tests
 
-![HORISEON](https://user-images.githubusercontent.com/122907573/216283302-a0a58b5d-2b99-47a9-b544-11b2d0f9aba0.png)
+You can test this application by putting it into a HTML checker. You will also visually see whether the page looks as expected with correct sized images.
 
-https://faithscoding.github.io/week-1-challenge/
+## Demo
+
+Screenshot to show the website:
+![screencapture-127-0-0-1-5500-index-html-2023-06-20-12_34_58](https://github.com/FaithsCoding/Developer-Blog/assets/122907573/5ebdba5d-c082-4404-8cab-796762360493)
+
+## Contributing
+
+Faith Meades
+
+## Questions
+
+- Username: FaithsCoding
+- URL: [FaithsCoding GitHub](www.github.com/FaithsCoding)
+- Repository (REPO): [HTML Refactoring](https://github.com/FaithsCoding/week-1-challenge)
+- Contact email: faithscoding@outlook.com
